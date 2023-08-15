@@ -12,20 +12,24 @@ const Contact = () => {
     setSubmit('Submitting')
     setLoading(true)
     e.preventDefault();
-
-    emailjs.sendForm('service_7zb4n0f', 'template_oc89xxg', form.current, 'UrRaQcEB7fssOyFgd')
-      .then((result) => {
-          setLoading(false)
-          e.target.reset()
-          setSubmit('Submitted')
-          setTimeout(() => {
-            setSubmit('Submit')
-          }, 2000);
-          console.log(result.text);
-      }, (error) => {
-          setLoading(false)
-          console.log(error.text);
-      });
+    if (form.current.message.value != '' && form.current.name.value != '' && form.current.message.email != ''  ){
+      
+      emailjs.sendForm('service_7zb4n0f', 'template_oc89xxg', form.current, 'UrRaQcEB7fssOyFgd')
+        .then((result) => {
+            setLoading(false)
+            e.target.reset()
+            setSubmit('Submitted')
+            setTimeout(() => {
+              setSubmit('Submit')
+            }, 2000);
+            console.log(result.text);
+        }, (error) => {
+            setLoading(false)
+            console.log(error.text);
+        });
+    }else{
+      alert('Please fill the form correctly!')
+    }
     };
 
   return (

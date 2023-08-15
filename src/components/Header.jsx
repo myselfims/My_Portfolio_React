@@ -17,7 +17,7 @@ const Header = ({handleJump}) => {
     <header className='w-screen max-sm:py-4 fixed bg-black z-10'>
         <nav className='w-full px-16 max-sm:px-2 flex justify-between items-center py-2'>
             <div className="logo z-10 max-sm:absolute max-sm:top-1 flex justify-center items-center">
-                <h1 className='text-3xl min-w-max font-bold bg-gradient-to-r from-primary to-danger bg-clip-text text-transparen'>Shaikh Imran</h1>
+                <h1 className='text-3xl font-handWriting min-w-max font-bold bg-gradient-to-r from-primary to-danger bg-clip-text text-transparen'>Shaikh Imran</h1>
             </div>
             <div className={`flex w-full max-sm:py-10 max-sm:${mobileNav?'flex':'hidden'} justify-between max-sm:flex-col`}>
                 <div className="pl-10">
