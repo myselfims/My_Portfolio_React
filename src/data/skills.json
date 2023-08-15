@@ -1,0 +1,50 @@
+[
+    {
+        "skill" : "JavaScript",
+        "icon" : "https://logosdownload.com/logo/javascript-logo-big.png"
+    },
+    {
+        "skill" : "Python",
+        "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+    },
+    {
+        "skill" : "HTML",
+        "icon" : "https://img.freepik.com/free-icon/html-5_318-566077.jpg"
+    },
+    {
+        "skill" : "CSS",
+        "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+    },
+    {
+        "skill" : "React JS",
+        "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+    },
+    {
+        "skill" : "Redux",
+        "icon" : "https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png"
+    },
+    {
+        "skill" : "Django",
+        "icon" : "https://seeklogo.com/images/D/django-logo-4C5ECF7036-seeklogo.com.png"
+    },
+    {
+        "skill" : "DRF",
+        "icon" : "https://www.django-rest-framework.org/img/logo.png"
+    },
+    {
+        "skill" : "Tailwind CSS",
+        "icon" : "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tailwind-css-icon.png"
+    },
+    {
+        "skill" : "Bootstrap",
+        "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png"
+    },
+    {
+        "skill" : "MySQL",
+        "icon" : "https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png"
+    },
+    {
+        "skill" : "Git",
+        "icon" : "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+    }
+]
