@@ -19,7 +19,7 @@ const Header = ({handleJump}) => {
             <div className="logo z-10 max-sm:absolute max-sm:top-1 flex justify-center items-center">
                 <h1 className='text-3xl font-handWriting min-w-max font-bold bg-gradient-to-r from-primary to-danger bg-clip-text text-transparen'>Shaikh Imran</h1>
             </div>
-            <div className={`flex w-full max-sm:py-10 max-sm:${mobileNav?'flex':'hidden'} justify-between max-sm:flex-col`}>
+            <div className={`flex ${mobileNav?'max-sm:flex':'max-sm:hidden'} w-full max-sm:py-10  justify-between max-sm:flex-col`}>
                 <div className="pl-10">
                     <ul className='flex items-center max-sm:flex-col'>
                         <li onClick={()=>handleClick('about')} className='font-bold text-xl mx-5 cursor-pointer hover:text-sky-400 transition-all '>About</li>
