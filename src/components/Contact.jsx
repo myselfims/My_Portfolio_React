@@ -9,10 +9,10 @@ const Contact = () => {
   const [submit, setSubmit] = useState('Submit')
 
   const sendEmail = (e) => {
-    setSubmit('Submitting')
     e.preventDefault();
     if (form.current.message.value != '' && form.current.name.value != '' && form.current.message.email != ''  ){
       
+      setSubmit('Submitting')
       setLoading(true)
       emailjs.sendForm('service_7zb4n0f', 'template_oc89xxg', form.current, 'UrRaQcEB7fssOyFgd')
         .then((result) => {
