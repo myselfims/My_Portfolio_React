@@ -17,7 +17,7 @@ delivering high-quality, scalable solutions</p>
         <button onClick={()=>handleJump('contact')} className='p-1 my-4 rounded bg-gradient-to-r from-cyan-700 to-cyan-400 font-bold text-4xl text-white hover:bg-white cursor-pointer  transition-all shadow-lg  hover:shadow-cyan-400'>Hire Me</button>
       </div>
       <div className='rounded-full justify-center overflow-hidden w-72 h-72 flex'>
-        <img className='hover:scale-110 min-w-fit cursor-pointer transition-all' src="https://drive.google.com/uc?id=1CFaafjD4w-zPGyEVr4RgNEp6cnt3usG9" alt="" />
+        <img className='hover:scale-110 min-w-fit cursor-pointer transition-all' src="https://drive.google.com/uc?id=1CbDqds_rCZFmKjzMnnpKGOLo7ISkDoAb" alt="" />
       </div>
     </div>
   )
