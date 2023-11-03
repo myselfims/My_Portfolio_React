@@ -1,11 +1,20 @@
-import React from 'react'
+import React from 'react';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const About = ({handleJump}) => {
+  const [text] = useTypewriter({
+    words : ['Fullstack Developer', 'Frontend Developer','Backend Developer'],
+    loop : {}
+  })
+  
+
+
+
   return (
     <div id="about" className='w-full animate-fadeIn flex py-28 max-sm:flex-col-reverse max-sm:items-center justify-between'>
       <div className="max-w-3xl h-full">
         <h1 className='text-8xl font-bold my-3 text-white max-sm:text-4xl max-sm:text-center'>Shaikh Imran</h1>
-        <h3 className='text-4xl my-3 max-sm:text-xl'>I am <strong className='text-cyan-700 bg-white px-1'>Fullstack Developer</strong></h3>
+        <h3 className='text-4xl my-3 max-sm:text-xl'>I am <span className='text-cyan-700 bg-white px-1'>{text}<Cursor/></span></h3>
         <p className='text-3xl leading-10'>Highly skilled and motivated Full Stack Developer with expertise
 in Python, Django, Django Rest Framework, HTML, CSS,
 JavaScript, React, MySQL, , Bootstrap, REST API, and JSON.

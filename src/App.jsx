@@ -45,7 +45,7 @@ function App() {
       <div ref={about} data-aos-offset="300" data-aos='fade-right'>
         <About handleJump={handleJump}/>  
       </div>
-      <div ref={skills} data-aos-offset="300" data-aos='fade-right'>
+      <div ref={skills} data-aos-offset="300" data-aos='fade-left'>
         <Skills/>
         
       </div>
@@ -53,7 +53,7 @@ function App() {
         <Project/>
 
       </div>
-      <div ref={contact} data-aos-offset="300" data-aos='fade-right'>
+      <div ref={contact} data-aos-offset="300" data-aos='fade-left'>
         <Contact/>
       </div>
     </div>
